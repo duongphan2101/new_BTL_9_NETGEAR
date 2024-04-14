@@ -82,3 +82,8 @@
 .sliderbar-li {
     padding:5px 10px;
 }
+
+.sliderbar-li:hover {
+    background-color:  lightgray;
+    cursor: pointer;
+}
