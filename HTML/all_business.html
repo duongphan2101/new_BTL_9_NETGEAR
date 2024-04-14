@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Networking Products:</title>
+    <link rel="stylesheet" href="../FONT/fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/base.css">
+    <link rel="stylesheet" href="../CSS/orbi.css">
+</head>
+<body>
+    <div id="main" style="background-color: white;">
+        <header class="header">
+            <div class="header-ads ">
+                <i class="fa fa-angle-left" aria-hidden="true" id="header-prev"></i>
+                <div class="header-ads_txt" id="changingText">
+                    sign up for special offers >>
+                </div>
+                <i class="fa fa-angle-right" aria-hidden="true" id="header-next"></i>
+            </div>
+            <nav class="nav">
+                <div class="nav-logo sub-nav">
+                    <a href="./main.html">
+
+                        <img src="../IMGS/NETGEAR-Logo-Dark_tcm148-119366.png" alt="" class="nav-logo_img">
+                    </a>
+                </div>
+
+                <div class="nav-menu sub-nav">
+                    <ul class="nav-ul1">
+                        <li class="li1" id="li_list">
+                            <a href="#">home <br> solutions</a>
+                        </li>
+                        <li class="li1" id="business-list">
+                            <a href="#">business <br> solutions</a>
+                        </li>
+                        <li class="li1" id="av-list">
+                            <a href="#">av <br> solutions</a>
+                        </li>
+                        <li class="li1">
+                            <a href="./support.html">support</a>
+                        </li>
+                        <li class="li1">
+                            <a href="./shop_offers.html">shop <br> offers</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav-check sub-nav">
+                    <ul class="nav-check_ul">
+                        <li class="nav-check_ulli" id="languge">
+                            <img src="../IMGS/american.png" alt="">
+                            <ul class="nav-check-languge" id="ul-languge">
+                                <li class="nav-check-languge_li">
+                                    United States (English)
+                                </li>
+                                <li class="nav-check-languge_li">
+                                    VietNamese
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-check_ulli">
+                            <img id="btn-open-search" src="../IMGS/search_dark_tcm148-119361.png" alt="" class="nav-check_img">
+                        </li>
+                        <li class="nav-check_ulli">
+                            <img src="../IMGS/help_dark_tcm148-119358.png" alt="" class="nav-check_img">
+                            <ul class="nav-check_help">
+                                <li class="nav-check_help_li"><a href="./contact.html">Contact Us</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-check_ulli">
+                            <img src="../IMGS/account_dark_tcm148-119354.png" alt="" class="nav-check_img">
+                            <div class="nav-check_user">
+                                <p class="user-title">MyNETGEAR&#174; Account</p>
+                                <hr class="user-hr">
+                                <p class="user-sub-title">Sign up and enjoy these benefits!</p>
+                                <ul class="user-ul">
+                                    <li class="user-li"><i class="fa fa-check" aria-hidden="true"></i> My Orders</li>
+                                    <li class="user-li"><i class="fa fa-check" aria-hidden="true"></i> Manage Profile</li>
+                                    <li class="user-li"><i class="fa fa-check" aria-hidden="true"></i> My Support</li>
+                                    <li class="user-li"><i class="fa fa-check" aria-hidden="true"></i> Track Order</li>
+                                    <li class="user-li"><i class="fa fa-check" aria-hidden="true"></i> Returns</li>
+                                </ul>
+                                <button class="user-createaccount user-btn" id="user-createaccount" onclick="chuyenTrangcreate()">Create Account</button>
+                                <hr class="user-hr">
+                                <button class="user-signin user-btn"  onclick="chuyenTrang()">Sign In</button>
+                            </div>
+                        </li>
+                        <li class="nav-check_ulli">
+                            <img src="../IMGS/shopping-cart.png" alt="" class="nav-check_cartimg nav-check_img">
+                            <ul class="nav-check_cart">
+                                <li align="center" class="nav-check_cart-li">Cart is Empty</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="box-search" id="box-search-modal">
+                <div class="panel-on-header">
+                    
+                </div>
+                <div class="search_modal" id="search">
+                    <div class="search_modalttop">
+                        <input type="search" class="search_modal-input" placeholder="Search ...">
+                        <button class="search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="search_modal-bottom">
+                        <ul class="modal-bottom-ul">
+                            <li class="modal-bottom-li">
+                                Orbi 970 Series Quad-Band WiFi 7 Mesh
+                            </li>
+                            <li class="modal-bottom-li">
+                                Orbi 960 Series Quad-Band WiFi 6E Mesh
+                            </li>
+                            <li class="modal-bottom-li">
+                                Orbi 860 Series Tri-Band WiFi 6 Mesh
+                            </li>
+                            <li class="modal-bottom-li">
+                                Nighthawk M6 5G WiFi 6 Mobile HostPot Router
+                            </li>
+                            <li class="modal-bottom-li">
+                                Nighthawk DOCSIS 3.1 Two-in-one Cable Modem + WiFi 6 Router Combo
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="close_search-modal" id="close-box-search-modal">
+                       x
+                    </button>
+                </div>
+            </div>
+
+            <!--subnav-->
+            <div class="subnav" id="sub-nav">
+                <div class="subnav-content">
+    
+                    <div class="subnav-right">
+                        <div class="subnav-right_top">
+                            <ul class="right-top_ul">
+                                <li class="right-top_ul_li"><a href="./shop_offers.html">SHOP OFFERS</a></li>
+                                <li class="right-top_ul_li"><a href="./orbi.html">ORBI PREMIUM WIFI</a></li>
+                                <li class="right-top_ul_li"><a href="./nighthaw.html">NIGHTHAWK MOBILE WIFI</a></li>
+                            </ul>
+                        </div>
+                        <div class="subnav-right_bottom">
+                            <div class="right_bottom-column">
+                                <p class="right_bottom-column-title">Home WiFI</p>                        
+                                <ul class="right_bottom_ul">
+                                    <li class="right_bottom_ul_li"><a href="#">Whole Home Mesh WiFi</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">WiFi Routers</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Cable Modems</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Cable Modem Routers</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">WiFi Range Extenders</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">USB WiFi Adapters</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Acessories</a></li>
+                                </ul>
+                            </div>
+                            <div class="right_bottom-column">
+                                <p class="right_bottom-column-title">Mobile WiFi</p>                        
+                                <ul class="right_bottom_ul">
+                                    <li class="right_bottom_ul_li"><a href="#">4G/5G Mobile Hotpots</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">4G/5G Mobile WiFi Routers</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">4G LTE Modems</a></li>
+                                </ul>
+    
+                                <p class="right_bottom-column-title title2">Wired NetWorking</p>                       
+                                <ul class="right_bottom_ul">
+                                    <li class="right_bottom_ul_li"><a href="#">Switches</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Powerline</a></li>
+                                </ul>
+                            </div>
+                            <div class="right_bottom-column">
+                                <p class="right_bottom-column-title">Gaming</p>                        
+                                <ul class="right_bottom_ul">
+                                    <li class="right_bottom_ul_li"><a href="#">Gaming Router</a></li>
+                                </ul>
+    
+                                <p class="right_bottom-column-title title3">Digital Frame</p>                       
+                                <ul class="right_bottom_ul">
+                                    <li class="right_bottom_ul_li"><a href="#">Merual Canvas II</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Merual WiFi Photo Frame</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="subnav-left">
+                        <div class="subnav-left_column">
+                            <p class="left_column_title">services & subscriptions</p>
+                            <ul class="left_column_ul">
+                                <li class="left_column_ul_li"><a href="#">NETGEAR ProSuport</a></li>
+                                <li class="left_column_ul_li"><a href="#">NETGEAR Armor</a></li>
+                                <li class="left_column_ul_li"><a href="#">NETGEAR Smart Paretal Controls</a></li>
+                            </ul>
+                        </div>
+                        <div class="subnav-left_column">
+                            <p class="left_column_title">LEARNING CENTER</p>
+                            <ul class="left_column_ul">
+                                <li class="left_column_ul_li"><a href="#">Blog</a></li>
+                                <li class="left_column_ul_li"><a href="#">WiFi</a></li>
+                                <li class="left_column_ul_li"><a href="#">WiFi 6E</a></li>
+                                <li class="left_column_ul_li"><a href="#">WiFi 6</a></li>
+                                <li class="left_column_ul_li"><a href="#">What is Mesh WiFi?</a></li>
+                                <li class="left_column_ul_li"><a href="#">5G Mobile WiFi</a></li>
+                                <li class="left_column_ul_li"><a href="#">Tri-Band / Quad-Band WiFi</a></li>
+                                <li class="left_column_ul_li"><a href="#">4G/5G Fixed Wireless For Home</a></li>
+                                <li class="left_column_ul_li"><a href="#">DOCSIS 3.1</a></li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="subnav-brand">
+                    <ul class="subnav-brand_ul">
+                        <li class="subnav-brand_ul_li">SHOP BY BRAND:</li>
+                        <li class="subnav-brand_ul_li"><a href="#"><img src="../IMGS/orbi logo_tcm148-128268.png" alt="" class="brand_logo"></a></li>
+                        <li class="subnav-brand_ul_li"><a href="#"><img src="../IMGS/nighthawk-logo_tcm148-128269.png" alt="" class="brand_logo"></a></li>
+                        <li class="subnav-brand_ul_li"><a href="#"><img src="../IMGS/meural-logo_tcm148-128271.png" alt="" class="brand_logo"></a></li>
+                        <li class="subnav-brand_ul_li"><a href="#"><img src="../IMGS/npg logo_tcm148-128270.png" alt="" class="brand_logo"></a></li>
+                        <li class="subnav-brand_ul_li"><a href="#"><img src="../IMGS/biz logo_tcm148-128272.png" alt="" class="brand_logo"></a></li>
+                    </ul>
+                </div>           
+            </div>
+
+            <!--subnav-bussiness-->
+            <div class="subnav" id="business-sub-nav">
+                <div class="subnav-content">
+
+                    <div class="subnav-right">
+                        <div class="subnav-right_top">
+                            <ul class="right-top_ul">
+                                <li class="right-top_ul_li"><a href="#">ALL BUSINESS</a></li>
+                            </ul>
+                        </div>
+                        <div class="subnav-right_bottom">
+                            <div class="right_bottom-column">
+                                <p class="right_bottom-column-title business-title business_title-befor color">Wireless NetWorking</p>                        
+                                <ul class="right_bottom_ul">
+                                    <li class="right_bottom_ul_li"><a href="#">Pro WiFi Access Points</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Business Essenatial Access Points</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Orbi Pro Mesh System</a></li>
+                                </ul>
+
+                                <p class="right_bottom-column-title business-title2 business_title-befor">Wired NetWorking</p>                        
+                                <ul class="right_bottom_ul">
+                                    <li class="right_bottom_ul_li"><a href="#">Multi-Gig Switches</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">PoE Switches</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Managed Switches</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Smart Cloud Managed</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Smart Switches</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Plus Switches</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Unmanaged Switches</a></li>
+                                </ul>
+                            </div>
+                            <div class="right_bottom-column">
+                                <p class="right_bottom-column-title business-title3 business_title-befor color">Routing</p>                        
+                                <ul class="right_bottom_ul">
+                                    <li class="right_bottom_ul_li"><a href="#">Pro Routers</a></li>
+                                </ul>
+
+                                <p class="right_bottom-column-title business-title4 business_title-befor">Mobile WiFi</p>                       
+                                <ul class="right_bottom_ul">
+                                    <li class="right_bottom_ul_li"><a href="#">Insight Pro on Mobile Hostpost</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">4G/5G Mobile Hostpost</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">4G LTE Modems</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">4G WiFi Routers For Home</a></li>
+                                </ul>
+
+                                <p class="right_bottom-column-title business-title5 business_title-befor">Software</p>                       
+                                <ul class="right_bottom_ul">
+                                    <li class="right_bottom_ul_li"><a href="#">NETGEAR Insight Management</a></li>
+                                </ul>
+                            </div>
+                            <div class="right_bottom-column">
+                                <p class="right_bottom-column-title business-title6 business_title-befor color">Applications</p>                        
+                                <ul class="right_bottom_ul">
+                                    <li class="right_bottom_ul_li"><a href="#">Total NetWork Solution</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">VARs & MSPs</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">IT Professionals</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Mid-Sized Business</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Small Business - Home Office</a></li>
+                                </ul>
+
+                                <p class="right_bottom-column-title business-title7 business_title-befor">Support</p>                       
+                                <ul class="right_bottom_ul">
+                                    <li class="right_bottom_ul_li"><a href="#">NETGEAR ProSupport</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Pro WiFi Design Sevices</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="subnav-left">
+                        <div class="subnav-left_column">
+                            <p class="left_column_title">resources</p>
+                            <ul class="left_column_ul">
+                                <li class="left_column_ul_li"><a href="#">Webinars</a></li>
+                                <li class="left_column_ul_li"><a href="#">Press Room</a></li>
+                                <li class="left_column_ul_li"><a href="#">Blogs</a></li>
+                                <li class="left_column_ul_li"><a href="#">Community</a></li>
+                                <li class="left_column_ul_li"><a href="#">Success Stories</a></li>
+                                <li class="left_column_ul_li"><a href="#">Become a partner</a></li>
+                                <li class="left_column_ul_li"><a href="#">Events</a></li>
+                            </ul>
+                        </div>
+                        <div class="subnav-left_column">
+                            <p class="left_column_title">learning center</p>
+                            <ul class="left_column_ul">
+                                <li class="left_column_ul_li"><a href="#">WiFi 7</a></li>
+                                <li class="left_column_ul_li"><a href="#">WiFi 6E Access Points</a></li>
+                                <li class="left_column_ul_li"><a href="#">WiFi 6 Access Points</a></li>
+                                <li class="left_column_ul_li"><a href="#">PoE: Power over Ethernet</a></li>
+                                <li class="left_column_ul_li"><a href="#">ProAV / AV over IP</a></li>
+                                <li class="left_column_ul_li"><a href="#">10-Gigabit Switching</a></li>
+                                <li class="left_column_ul_li"><a href="#">Multi-Gig Switching</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="subnav-brand">
+                    <ul class="subnav-brand_ul">
+                        <li class="subnav-brand_ul_li">SHOP BY BRAND:</li>
+                        <li class="subnav-brand_ul_li"><a href="#"><img src="../IMGS/Netgear_Business_CenterAligned_Dark_tcm148-145111.png" alt="" class="brand_logo"></a></li>
+                        <li class="subnav-brand_ul_li"><a href="#"><img src="../IMGS/NETGEAR_AV_logo_primary_colour_RGB_tcm148-145110.png" alt="" class="brand_logo"></a></li>
+                        <li class="subnav-brand_ul_li"><a href="#"><img src="../IMGS/NETGEAR_Insight_Center_Black_tcm148-145108.png" alt="" class="brand_logo"></a></li>
+                        <li class="subnav-brand_ul_li"><a href="#"><img src="../IMGS/NETGEAR_Engage_Logo_Centered_tcm148-145109.png" alt="" class="brand_logo"></a></li>
+                    </ul>
+                </div>           
+            </div>
+
+            <!--subnav-AV-->
+            <div class="subnav" id="AV-sub-nav">
+                <div class="subnav-content">
+
+                    <div class="subnav-right">
+                        <div class="subnav-right_top">
+                            <ul class="right-top_ul">
+                                <li class="right-top_ul_li"><a href="#">AV SOLUTIONS OVERVIEW</a></li>
+                            </ul>
+                        </div>
+                        <div class="subnav-right_bottom">
+                            <div class="right_bottom-column">
+                                <p class="right_bottom-column-title AV-title AV_title-befor AV_color">PRODUCTS</p>                        
+                                <ul class="right_bottom_ul">
+                                    <li class="right_bottom_ul_li"><a href="#">M4250 Managed Switches</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">M4300 Managed Switches</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">M4350 Managed Switches</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">M4500 Managed Switches</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">NETGEAR Engage Controller</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">NETGEAR Insight Management</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Pro Router</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Pro WiFi Access Points</a></li>
+                                </ul>
+                            </div>
+                            <div class="right_bottom-column">
+                                <p class="right_bottom-column-title AV-title2 AV_title-befor AV_color">APPLICATIONS</p>                        
+                                <ul class="right_bottom_ul">
+                                    <li class="right_bottom_ul_li"><a href="#">Commercial AV</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Residential AV</a></li>
+                                </ul>
+
+                                <p class="right_bottom-column-title AV-title3 AV_title-befor">SUPPORT</p>                       
+                                <ul class="right_bottom_ul">
+                                    <li class="right_bottom_ul_li"><a href="#">NETGEAR ProSupport</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Pro AV Design Services</a></li>
+                                    <li class="right_bottom_ul_li"><a href="#">Pro WiFI Design Services</a></li>
+                                </ul>
+
+                            </div>
+                            <div class="right_bottom-column">
+                                <p class="right_bottom-column-title AV-title4 AV_title-befor AV_color">PARTNER</p>                        
+                                <ul class="right_bottom_ul">
+                                    <li class="right_bottom_ul_li"><a href="#">Become a Partner</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="subnav-left">
+                        <div class="subnav-left_column">
+                            <p class="left_column_title">resources</p>
+                            <ul class="left_column_ul">
+                                <li class="left_column_ul_li"><a href="#">Webinars</a></li>
+                                <li class="left_column_ul_li"><a href="#">Press Room</a></li>
+                                <li class="left_column_ul_li"><a href="#">Blogs</a></li>
+                                <li class="left_column_ul_li"><a href="#">Community</a></li>
+                                <li class="left_column_ul_li"><a href="#">Success Stories</a></li>
+                                <li class="left_column_ul_li"><a href="#">Become a partner</a></li>
+                                <li class="left_column_ul_li"><a href="#">Events</a></li>
+                            </ul>
+                        </div>
+                        <div class="subnav-left_column">
+                            <p class="left_column_title">learning center</p>
+                            <ul class="left_column_ul">
+                                <li class="left_column_ul_li"><a href="#">WiFi 7</a></li>
+                                <li class="left_column_ul_li"><a href="#">WiFi 6E Access Points</a></li>
+                                <li class="left_column_ul_li"><a href="#">WiFi 6 Access Points</a></li>
+                                <li class="left_column_ul_li"><a href="#">PoE: Power over Ethernet</a></li>
+                                <li class="left_column_ul_li"><a href="#">ProAV / AV over IP</a></li>
+                                <li class="left_column_ul_li"><a href="#">10-Gigabit Switching</a></li>
+                                <li class="left_column_ul_li"><a href="#">Multi-Gig Switching</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="subnav-brand">
+                    <ul class="subnav-brand_ul">
+                        <li class="subnav-brand_ul_li">SHOP BY BRAND:</li>
+                        <li class="subnav-brand_ul_li"><a href="#"><img src="../IMGS/Netgear_Business_CenterAligned_Dark_tcm148-145111.png" alt="" class="brand_logo"></a></li>
+                        <li class="subnav-brand_ul_li"><a href="#"><img src="../IMGS/NETGEAR_AV_logo_primary_colour_RGB_tcm148-145110.png" alt="" class="brand_logo"></a></li>
+                        <li class="subnav-brand_ul_li"><a href="#"><img src="../IMGS/NETGEAR_Insight_Center_Black_tcm148-145108.png" alt="" class="brand_logo"></a></li>
+                        <li class="subnav-brand_ul_li"><a href="#"><img src="../IMGS/NETGEAR_Engage_Logo_Centered_tcm148-145109.png" alt="" class="brand_logo"></a></li>
+                    </ul>
+                </div>           
+            </div>
+
+        </header>
+        <div class="container-fluid main-content" style="position: relative;">
+            <div class="video-ads-first">
+                <video id="video-background" autoplay muted loop>
+                    <source src="../IMGS/allbusiness/wbe750-smb-hero-banner-desktop-20240312.mp4" type="">
+                </video>
+                <div class="box-business">
+                    <h3 class="grid-conten_title" style="color: black;">Business WiFi has never been better</h3>
+                    <div class="grid-content_hr" style="border: 1px solid black;"></div>
+                    <p class="grid-content-sub" style="color: black;">Introducing thw WBE750 WiFi 7 Access Point. Power your <br> 
+                    business with next -gen speeds up to 2.4X faster than WiFi 6.</p>
+                    <button class="gird-content_btn btn btn-dark">SHOP WBE750</button>
+                </div>
+            </div>
+
+            <div class="row-fluid rowfiding mt-0">
+                <img class="img-finding" src="../IMGS/allbusiness/smb-thin-desktop_tcm148-150200.jpg" alt="" loading="lazy">
+                <div class="finding-content" style="background-color: rgba(255, 255, 255, .7); padding: 20px; left: 50px;">
+                    <h3 class="grid-conten_title" style="color: black;">Save 50% on all ProSupport plans</h3>
+                    <div class="grid-content_hr" style="border: 1px solid black;"></div>
+                    <p class="grid-content-sub" style="color: black;">
+                        Get total peace of mind with up to 5 years of extended warranty and support</p>
+                    <button class="gird-content_btn btn btn-dark">SHOW NOW</button>
+                </div>
+
+            </div>
+
+            <div class="row-fluid rowfiding mt-0">
+                <img class="img-finding" src="../IMGS/fullasset-thin-accesspoints-desktop-20240312_tcm148-157216.webp" alt="" loading="lazy">
+                <div class="finding-content supercharge-content">
+                    <h3 class="grid-conten_title font-black">Supercharge your connectivity</h3>
+                    <p class="grid-content-sub font-black">Shop NETGEAR WiFi Access Points and get greater coverage and superior <br> speed throughout your business</p>
+                    <button class="gird-content_btn btn btn-dark">Shop Wireless solution</button>
+                </div>
+            </div>
+
+            <div class="row-fluid rowfiding mt-0" style="color: black">
+                <img class="img-finding" src="../IMGS/allbusiness/FullAsset_AVSolutions_20221113_tcm148-145599.jpg" alt="" loading="lazy">
+                <div class="finding-content" style="right: 50px; text-align: right; color: black">
+                    <h3 class="grid-conten_title">AV Solutions</h3>
+                    <div class="grid-content_hr" style="margin-left: 800px; border: 1px solid black;"></div>
+                    <p class="grid-content-sub">
+                        The best in class connected network solutions for the Commercial and Residential <br> markets
+                    </p>
+                    <button class="gird-content_btn btn btn-dark">LEARN MORE</button>
+                </div>
+
+            </div>
+
+            <div class="row mt-5" style="padding: 30px 150px;">
+                <h1>SOLUTIONS AND SERVICES</h1>
+                <h5 style="background-color: #2c262d; color: white;">BUSINESS TYPE:</h5>
+                <img src="../IMGS/allbusiness/Var_Msp_tcm148-121302.png" alt="">
+                <a style="font-size: 28px; color: black; margin-top: 10px;" href="#">VAR/MSP</a>
+                <p>Accelerate your business with simple, reliable and profitable networking</p>
+
+                <img src="../IMGS/allbusiness/IT_Managers_tcm148-121303.png" alt="" class="mt-5">
+                <a style="font-size: 28px; color: black; margin-top: 10px;" href="#">IT Managers</a>
+                <p>Keep calm and manage all. Make IT work with NETGEAR's networking solutions and services.</p>
+
+                <img src="../IMGS/allbusiness/Small_Business_tcm148-121304.png" alt="" class="mt-5">
+                <a style="font-size: 28px; color: black; margin-top: 10px;" href="#">Small Business</a>
+                <p>Run your business, not your IT. See your network from a whole new perspective</p>
+
+                <img src="../IMGS/allbusiness/HomeBase_LP_tcm148-126172.png" alt="" class="mt-5">
+                <a style="font-size: 28px; color: black; margin-top: 10px;" href="#">Home-Based Business</a>
+                <p>The best speed, coverage, capacity, and security for growing your business</p>
+
+                <img src="../IMGS/allbusiness/Home_Office_tcm148-121305.png" alt="" class="mt-5">
+                <a style="font-size: 28px; color: black; margin-top: 10px;" href="#">Home Office</a>
+                <p>Always in range. Business-grade network for your home office</p>
+
+                <h5 style="background-color: purple; color: white;" class="mt-5">INDUSTRY :</h5>
+                <img src="../IMGS/allbusiness/Education_tcm148-121306.png" alt="">
+                <a style="font-size: 28px; color: black; margin-top: 10px;" href="#">Education</a>
+                <p>Connecting students and teachers for a consistent learning experience no matter where they are and what device they're using</p>
+
+                <img src="../IMGS/allbusiness/Healthcare_tcm148-121307.png" alt="" class="mt-5">
+                <a style="font-size: 28px; color: black; margin-top: 10px;" href="#">Healthcare</a>
+                <p>Secure and reliable connectivity for staff and patients</p>
+
+                <img src="../IMGS/allbusiness/Public_Sector_tcm148-121308.png" alt="" class="mt-5">
+                <a style="font-size: 28px; color: black; margin-top: 10px;" href="#">Public Sector</a>
+                <p>Remote device and location management for small businesses</p>
+
+            </div>
+
+            <div class="row-fluid rowfiding mt-0" style="color: white">
+                <img class="img-finding" src="../IMGS/allbusiness/Business-Banner-Insight-20210919_tcm148-128743.jpg" alt="" loading="lazy">
+                <div class="finding-content" style="right: 50px; text-align: right; color: white">
+                    <h3 class="grid-conten_title">NETGEAR Insight</h3>
+                    <p class="grid-content-sub">
+                        Manage your network from anywhere.
+                    </p>
+                    <button class="gird-content_btn btn btn-outline-light text-danger">LEARN MORE</button>
+                </div>
+
+            </div>
+
+            <div class="row-fluid mt-4 bg-dark" style="color: white; text-align: center; padding: 30px;">
+                <h3 class="row-title p-4" style="font-weight: 250; letter-spacing: 2px;">NETGEAR Switches</h3>
+                <h5>Reliable, affordable, and easy to set up. Wired connectivity for every business </h5>
+                <div class="row-list">
+                    <div class="list-prod">
+                        <img src="../IMGS/allbusiness/Unmananged_tcm148-111827.jpg" alt="" class="prod-img">
+                        <h5 class="prod-title">Unmanaged</h5>
+                        <p class="prod-sub">Easy setup and simple connectivity for home offices.</p>
+                        <!-- <button class="gird-content_btn btn btn-dark">SHOP NOW</button> -->
+                        <a href="#" style="color: white; font-size: 18px;">LEARN MORE</a>
+                    </div>
+                    <div class="list-prod">
+                        <img src="../IMGS/allbusiness/Smart_Managed_Plus_tcm148-111828.jpg" alt="" class="prod-img">
+                        <h5 class="prod-title">Plus</h5>
+                        <p class="prod-sub">Ideal for small offices with basic network management.</p>
+                        <a href="#" style="color: white; font-size: 18px;">LEARN MORE</a>
+                    </div>
+                    <div class="list-prod">
+                        <img src="../IMGS/allbusiness/Smart_Managed_Pro_tcm148-111829.jpg" alt="" class="prod-img">
+                        <h5 class="prod-title">Smart</h5>
+                        <p class="prod-sub">Designed for commercial use by small to medium businesses.</p>
+                        <a href="#" style="color: white; font-size: 18px;">LEARN MORE</a>
+                    </div>
+                    <div class="list-prod">
+                        <img src="../IMGS/allbusiness/Smart_Managed_Pro_Cloud_tcm148-111830.jpg" alt="" class="prod-img">
+                        <h5 class="prod-title">Smart with Cloud</h5>
+                        <p class="prod-sub">Remote cloud management and monitoring.</p>
+                        <a href="#" style="color: white; font-size: 18px;">LEARN MORE</a>
+                    </div>
+                    <div class="list-prod">
+                        <img src="../IMGS/allbusiness/Fully_managed_tcm148-111831.jpg" alt="" class="prod-img">
+                        <h5 class="prod-title">Fully Managed</h5>
+                        <p class="prod-sub">All the features of Plus, with additional functionality.</p>
+                        <a href="#" style="color: white; font-size: 18px;">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="after-fiding_box">
+                <div class="after-finding-col">
+                    <img src="../IMGS/allbusiness/Dual Box_10G_tcm148-109161.jpg" alt="" class="col-1_img">
+                    <div class="after-finding_content">
+                        <h3 class="grid-conten_title ">Less network congestion, more productivity</h3>
+                        <div class="grid-content_hr"></div>
+                        <p class="grid-content-sub after-font">10-Gigabit Switches</p>
+                        <button class="gird-content_btn btn btn-dark">LEARN MORE</button>
+                    </div>
+                </div>
+                <div class="after-finding-col bg-dark">
+                    <img src="../IMGS/allbusiness/doublefeature-PoE_tcm148-109160.jpg" alt="" class="col-1_img">
+                    <div class="after-finding_content" style="color: black;">
+                        <h3 class="grid-conten_title">Discover more offers</h3>
+                        <div class="grid-content_hr"></div>
+                        <p class="grid-content-sub after-font">Find more ways to save on the NETGEAR Store</p>
+                        <button class="gird-content_btn btn btn-dark">shop now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-ads-first mt-5">
+                <video id="video-business-final" autoplay muted loop>
+                    <source src="../IMGS/allbusiness/fullasset_proav_2000_20220215.mp4" type="">
+                </video>
+                <div class="after-finding_content">
+                    <h3 class="grid-conten_title ">Flawlessly engineered to wow</h3>
+                    <div class="grid-content_hr"></div>
+                    <p class="grid-content-sub after-font">Discover what the NETGEAR switches can offer for your AV-over-IP installations</p>
+                    <button class="gird-content_btn btn btn-light">LEARN MORE</button>
+                </div>
+            </div>
+
+            <div class="row mt-5" style="padding: 30px 30px 30px 200px;">
+                <h3>FOR BUSINESS</h3>
+                <div class="col col-sm-3 mt-5 bg-danger f-bu" style="height: 450px; background: url('../IMGS/allbusiness/Shop-For-Business-Wireless_v3_tcm148-109153.jpg') center;">
+
+                </div>
+                <div class="col col-sm-3 mt-5 bg-danger f-bu" style="height: 450px; background: url('../IMGS/allbusiness/Shop-For-Business-Switching_tcm148-109154.jpg') center;">
+                    <p class="f-bu-title">Switches</p>
+                </div>
+                <div class="col col-sm-3 mt-5 bg-danger f-bu" style="height: 450px; background: url('../IMGS/allbusiness/Shop-For-Business-Mobile_tcm148-109155.jpg') center;">
+                    <p class="f-bu-title">Mobile</p>
+                </div>
+                <div class="col col-sm-3 mt-5 bg-danger f-bu" style="height: 450px;  background: url('../IMGS/allbusiness/SMB-Full-Products-Category-Lane_tcm148-109157.jpg') center;">
+                    <p class="f-bu-title">ALl Business Product</p>
+                </div>
+            </div>
+
+            <div class="row-fluid rowfiding mb-3">
+                <img class="img-finding" src="../IMGS/allbusiness/signupbg-smb-v1-20230125_tcm148-148185.jpg" alt="" loading="lazy">
+                <div class="signup-content">
+                    <h2 class="signup_title">Sign up for news, tips and offers and receive 10% off* <br> your favorite product</h2>
+                    <input type="email" class="signup-inp" id="txt-email" placeholder="Your Email" style="padding-left: 15px;">
+                    <br>
+                    <br>
+                    <button class="gird-content_btn btn btn-light">Sign up</button>
+                    <p class="sigup-txt">You can unsubscribe from our mailing list at any time. Please see our <a href="#">Privacy Policy</a> for more <br> information. *10% discount promo code valid for one-time use on a single item for maximum savings <br> of $100. May be applied to all NETGEAR products, excluding services and ProAV items. May not be <br> combined with other offers. Limit one promo code per customer.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="screen-footer d-flex" style="width: 1200px; margin: auto;">
+                    <div class="screen-footer_col">
+                        <p class="footer-col-title">MyNETGEAR</p>
+                        <div class="footer-col-hr"></div>
+                        <ul class="footer-col-ul">
+                            <li class="footer-col-li"><a href="#">
+                                Manage Profile
+                            </a></li>
+                            <li class="footer-col-li"><a href="#">
+                                My Orders
+                            </a></li>
+                            <li class="footer-col-li"><a href="#">
+                                Track Orders
+                            </a></li>
+                            <li class="footer-col-li"><a href="#">
+                                Returns
+                            </a></li>
+                            <li class="footer-col-li"><a href="#">
+                                Register Product
+                            </a></li>
+                            <li class="footer-col-li"><a href="#">
+                                My Support
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="screen-footer_col">
+                        <p class="footer-col-title">CUSTOMER CARE</p>
+                        <div class="footer-col-hr"></div>
+                        <ul class="footer-col-ul">
+                            <li class="footer-col-li"><a href="#">
+                                Shipping and Returns
+                            </a></li>
+                            <li class="footer-col-li"><a href="#">
+                                Shopping FAQs
+                            </a></li>
+                            <li class="footer-col-li"><a href="#">
+                                Warranty Info
+                            </a></li>
+                            <li class="footer-col-li"><a href="#">
+                                Download Center
+                            </a></li>
+                            <li class="footer-col-li"><a href="#">
+                                Community
+                            </a></li>
+                            <li class="footer-col-li"><a href="#">
+                                Support
+                            </a></li>  
+                            <li class="footer-col-li"><a href="#">
+                                Contact Us
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="screen-footer_col">
+                        <p class="footer-col-title">COMPANY</p>
+                        <div class="footer-col-hr"></div>
+                        <ul class="footer-col-ul">
+                            <li class="footer-col-li"><a href="#">
+                                About Us
+                            </a></li>
+                            <li class="footer-col-li"><a href="#">
+                                Careers
+                            </a></li>
+                            <li class="footer-col-li"><a href="#">
+                                Social Responsibility
+                            </a></li>
+                            <li class="footer-col-li"><a href="#">
+                                Investor Relations
+                            </a></li>
+                            <li class="footer-col-li"><a href="#">
+                                Press Room
+                            </a></li>
+                            <li class="footer-col-li"><a href="#">
+                                Blog
+                            </a></li>  
+                            <li class="footer-col-li"><a href="#">
+                                Certified Refurbished
+                            </a></li>
+                            <li class="footer-col-li"><a href="#">
+                                Where To Buy
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="screen-footer_right">
+                        <img src="../IMGS/NETGEAR-Logo-White_tcm148-94975.png" alt="" class="footer-right_img">
+                        <div class="footer-right_none">
+
+                        </div>
+                        <div class="footer-right_inp">
+                            <p class="right-inp_title">Email Updates</p>
+                            <div class="footer-col-hr"></div>
+                            <input type="email" class="footer-inp_email" placeholder="Email Address">
+                            <button class="btn btn-light footer-btn">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5" style="width: 1200px; margin: auto;">
+                <ul class="fi-footer_ul d-flex justify-content-between">
+                    <li class="fi-footer_li" style="font-size: 12px; padding-top: 4px;">
+                        © 1996-2024 NETGEAR®
+                    </li>
+                    <li class="fi-footer_li"><a href="#">
+                        Privacy Policy
+                    </a></li>
+                    <li class="fi-footer_li"><a href="#">
+                        Ad & Cookie Policy
+                    </a></li>
+                    <li class="fi-footer_li"><a href="#">
+                        My Privacy
+                        Choices <img src="../IMGS/preferences_yesno_tcm148-156289.jpg" alt="" width="20%"
+                        style="border: none;">
+                    </a></li>
+                    <li class="fi-footer_li"><a href="#">
+                        Terms & Conditions
+                    </a></li>
+                    <li class="fi-footer_li"><a href="#">
+                        Accessibility
+                    </a></li>
+                    <li class="fi-footer_li"><a href="https://www.facebook.com/Netgear/">
+                        <img src="../IMGS/facebook_tcm148-94986.png" alt="">
+                    </a></li>
+                    <li class="fi-footer_li"><a href="https://twitter.com/NETGEAR">
+                        <img src="../IMGS/twitter_logo_home_page_smaller_tcm148-152849.png" alt="">
+                    </a></li>
+                    <li class="fi-footer_li"><a href="https://www.instagram.com/netgear">
+                        <img src="../IMGS/instagram_tcm148-94988.png" alt="">
+                    </a></li>
+                    <li class="fi-footer_li"><a href="https://www.youtube.com/user/NETGEARChannel">
+                        <img src="../IMGS/youtube_tcm148-94989.png" alt="">
+                    </a></li>
+                </ul>
+            </div>
+        </footer>
+
+    </div>
+</body>
+<script src="../JS/sour.js"></script>
+</html>

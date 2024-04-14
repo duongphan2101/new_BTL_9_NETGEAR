@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETGEAR Support | NETGEAR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../CSS/support.css">
+    <link rel="stylesheet" href="../CSS/base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header d-flex justify-content-between">
+            <ul class="header-ul">
+                <li class="header-li">
+                    <a href="./main.html"><img src="../IMGS/support/download.png" alt="" class="header-logo"></a>
+                </li>
+                <li class="header-li">
+                    <a href="#">SUPPORT</a>
+                </li>
+                <li class="header-li">
+                    <a href="#">COMMUNITY</a>
+                </li>
+                <li class="header-li">
+                    <a href="./contact.html">CONTACT US</a>
+                </li>
+                <li class="header-li">
+                    <a href="#">DOWNLOAD</a>
+                </li>
+            </ul>
+
+            <div class="header-form">
+                <div class="search-form d-flex">
+                    <input type="text" class="inp-search hei" placeholder="Search ... ">
+                    <button class="btn-search">
+                        <img src="../IMGS/support/search.png" alt="" class="btn-img">
+                    </button>
+                </div>
+                <button class="btn btn-dark btn-user" id="btn-in-out">
+                    in/out
+                </button>
+                <select name="set-language" id="set-language" class="form-control inp-search hei">
+                    <option value="1">United States (English)</option>
+                    <option value="2">VietNames</option>
+                    <option value="3">USUK</option>
+                    <option value="4">China</option>
+                </select>
+            </div>
+            <div class="nav-check_user border" id="inout">
+                <p class="user-title">MyNETGEAR&#174; Account</p>
+                <hr class="user-hr">
+                <p class="user-sub-title">Sign up and enjoy these benefits!</p>
+                <ul class="user-ul">
+                    <li class="user-li"><i class="fa fa-check" aria-hidden="true"></i> My Orders</li>
+                    <li class="user-li"><i class="fa fa-check" aria-hidden="true"></i> Manage Profile</li>
+                    <li class="user-li"><i class="fa fa-check" aria-hidden="true"></i> My Support</li>
+                    <li class="user-li"><i class="fa fa-check" aria-hidden="true"></i> Track Order</li>
+                    <li class="user-li"><i class="fa fa-check" aria-hidden="true"></i> Returns</li>
+                </ul>
+                <button class="user-createaccount user-btn" id="user-createaccount" onclick="chuyenTrangcreate()">Create Account</button>
+                <hr class="user-hr">
+                <button class="user-signin user-btn"  onclick="chuyenTrang()">Sign In</button>
+            </div>
+        </header>
+        <div class="bg-dark row-ads">
+            <p class="header-ads">! NETGEAR is aware of a growing number of phone and online scams. To learn how to stay safe, <a href="#">click here</a>.</p>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-xl-7 left-box">
+                    <div class="box-to-box">
+                        <h1>Welcome to NETGEAR Support</h1>
+                        <h3>Lets get started.</h3>
+                        <p>Selecting your model allows us to tailor our support site for you.</p>
+                        <input type="text" name="" id="inp-help" class="form-control inp-help-inp" placeholder="Enter your number or product name here ... ">
+                    </div>
+                </div>
+                <div class="col col-xl-5 right-box bg-light">
+                    <h4 style="font-weight: bold;">How to Find Your Model Number?</h4>
+                    <p style="padding: 15px 0;">To find the model/version number of a device, check the <br> bottom or back panel. Example:</p>
+                    <img src="../IMGS/support/label_02.png" alt="" class="right-box-img">
+                    <p class="mt-3" style="font-weight: bold;">Find Your Model Number</p>
+                </div>
+            </div>
+            <div class="row mt-5 new-row">
+                <p class="select-title">Select a category below to browse for your product model</p>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="../IMGS/support/icon-wireless-routers.png" alt="" class="grid-item-img">
+                        <p class="grid-item-title">WiFi Router</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../IMGS/support/orbi-support-icon.jpg" alt="" class="grid-item-img">
+                        <p class="grid-item-title">Orbi WiFi System</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../IMGS/support/NH-wifi6-mesh-icon-v2.png" alt="" class="grid-item-img">
+                        <p class="grid-item-title">Nighthawk WiFi System</p>
+                    </div>  
+                    <div class="grid-item">
+                        <img src="../IMGS/support/icon-01.png" alt="" class="grid-item-img">
+                        <p class="grid-item-title">Home Networking</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../IMGS/support/apps-and-services_57x58.png" alt="" class="grid-item-img">
+                        <p class="grid-item-title">App & Services</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../IMGS/support/icon-mobile-v4.png" alt="" class="grid-item-img">
+                        <p class="grid-item-title">Mobile Broadband</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../IMGS/support/icon-meural-v2.png" alt="" class="grid-item-img">
+                        <p class="grid-item-title">Meural</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../IMGS/support/InsightIcon.png" alt="" class="grid-item-img">
+                        <p class="grid-item-title">Insight</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../IMGS/support/icon-switches.png" alt="" class="grid-item-img">
+                        <p class="grid-item-title">Switches</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../IMGS/support/icon-business-wireless.png" alt="" class="grid-item-img">
+                        <p class="grid-item-title">Business Wireless</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../IMGS/support/icon-security.png" alt="" class="grid-item-img">
+                        <p class="grid-item-title">Security</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="../IMGS/support/icon-readynas-v2.png" alt="" class="grid-item-img">
+                        <p class="grid-item-title">Network Storage</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5 new-row new-background">
+                <p class="select-title">WiFi Routers</p>
+                <div class="div-bg bg-light">
+                    <div class="grid-container">
+                        <div class="grid-item grid-item1">
+                            <img src="../IMGS/support/RS700_100x100.png" alt="" class="grid-item-img">
+                            <p class="grid-item-title">Nighthawk WiFi 7 Router</p>
+                        </div>
+                        <div class="grid-item grid-item1">
+                            <img src="../IMGS/support/RAXE500_100x100.png" alt="" class="grid-item-img">
+                            <p class="grid-item-title">Nighthawk WiFi 6E Routers</p>
+                        </div>
+                        <div class="grid-item grid-item1">
+                            <img src="../IMGS/support/RAX50_100x100.png" alt="" class="grid-item-img">
+                            <p class="grid-item-title">Nighthawk WiFi 6 Routers</p>
+                        </div>  
+                        <div class="grid-item grid-item1">
+                            <img src="../IMGS/support/product-01.png" alt="" class="grid-item-img">
+                            <p class="grid-item-title">Nighthawk Pro Gaming Routers</p>
+                        </div>
+                        <div class="grid-item grid-item1">
+                            <img src="../IMGS/support/XR500-100x100.png" alt="" class="grid-item-img">
+                            <p class="grid-item-title">Nighthawk AC Routers</p>
+                        </div>
+                        <div class="grid-item grid-item1">
+                            <img src="../IMGS/support/ac_router-icon.png" alt="" class="grid-item-img">
+                            <p class="grid-item-title">AC Routers</p>
+                        </div>
+                        <div class="grid-item grid-item1">
+                            <img src="../IMGS/support/accessories-icon.png" alt="" class="grid-item-img">
+                            <p class="grid-item-title">Accessories</p>
+                        </div>
+                        <div class="grid-item grid-item1">
+                            <img src="../IMGS/support/My_Media_100x100.png" alt="" class="grid-item-img">
+                            <p class="grid-item-title">Router Features</p>
+                        </div>
+                        <div class="grid-item grid-item1">
+                            <img src="../IMGS/support/legacy_routers.png" alt="" class="grid-item-img">
+                            <p class="grid-item-title">Legacy Routers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-3 bg-dark p-4 cant">
+                <div>
+                    <h2 style="color: white;">Can't find what you're looking for?</h2>
+                    <p style="color: white;">Quick and easy solutions are available for you in the NETGEAR community.</p>
+                </div>
+                <button class="btn btn-primary btn-ask">Ask the Community</button>
+            </div>
+            <div class="bg-light p-4 cant">
+                <div>
+                    <h4>Complimentary Support</h4>
+                    <p>NETGEAR provides complimentary technical support for NETGEAR products for 90 days from the original date of purchase.</p>
+                </div>
+                <button class="btn btn-contact-sup">Contact Support
+                    <hr class="btn-hr">
+                </button>
+            </div>
+
+            <div class="row new-row border pt-5 pb-5 bg-light">
+                <p class="select-title">NETGEAR Support</p>
+                <div class="col col-sm-4">
+                    <p style="font-weight: bold;">NETGEAR Premium Support for Home</p>
+                    <p>A single point of support around the clock. Premium Support makes it easy to fix issues on not just your NETGEAR purchase but for your entire home network. The service includes support for the following:
+                    </p>
+                    <ul class="sp-ul">
+                        <li>NETGEAR and non-NETGEAR network devices</li>
+                        <li>Desktop and Notebook PCs, Printers, Scanners, and more</li>
+                        <li>Windows Operating Systems, MS Office, Outlook, and more</li>
+                    </ul>
+                    <a href="#" style="color: black; font-weight: bold;">Learn More</a>
+                </div>
+                <div class="col col-sm-4" style="border-left: 1px solid lightgrey;">
+                    <p style="font-weight: bold;">NETGEAR ProSupport for Home</p>
+                    <p>Protect and support your recent NETGEAR purchase. With NETGEAR ProSupport for Home, extend your warranty entitlement and support coverage further and get access to experts you trust.
+                    </p>
+                    <ul class="sp-ul">
+                        <li>Protect your investment from the hassle of unexpected repairs and expenses</li>
+                        <li>Connect with experienced NETGEAR experts who know your product the best</li>
+                        <li>Resolve issues faster with 24/7 service</li>
+                    </ul>
+                    <a href="#" style="color: black; font-weight: bold;">Learn More</a>
+                </div>
+                <div class="col col-sm-4" style="border-left: 1px solid lightgrey;">
+                    <p style="font-weight: bold;">NETGEAR ProSupport for Business</p>
+                    <p>NETGEAR ProSupport for Business services are available to supplement your technical support and warranty entitlements. NETGEAR offers a variety of ProSupport for Business services that allow you to access NETGEAR's expertise in a way that best meets your needs:
+                    </p>
+                    <ul class="sp-ul">
+                        <li>Product Installation</li>
+                        <li>Professional Wireless Site Survey</li>
+                        <li>Defective Drive Retention (DDR) Service</li>
+                    </ul>
+                    <a href="#" style="color: black; font-weight: bold;">Learn More</a>
+                </div>
+            </div>
+
+            <div class="row new-row pt-5 pb-5">
+                <!-- <p class="select-title">NETGEAR Support</p> -->
+                <div class="col col-sm-4">
+                    <p style="font-weight: bold; font-size: 24px;">Resources</p>
+                    
+                    <ul class="re-ul">
+                        <li>Download Center</li>
+                        <li>Warranty Information</li>
+                        <li>Security Advisory</li>
+                        <li>Declarations of Conformity</li>
+                        <li>Premium Support Option</li>
+                        <li>Australian Consumer Rights</li>
+                    </ul>
+                    
+                </div>
+                <div class="col col-sm-4">
+                    <p style="font-weight: bold; font-size: 24px;">Alerts</p>
+                    
+                    <ul class="re-ul">
+                        <li><img src="../IMGS/support/warning.png" alt=""> 3/6/24 – Security Advisory for Post-Authentication Stack Overflow on the RAX30, PSV-2023-0160</li>
+                        <li><img src="../IMGS/support/warning.png" alt=""> 2/21/24 – Security Advisory for Post-Authentication Command Injection on the R7000, PSV-2023-0154</li>
+                    </ul>
+                    
+                </div>
+                <div class="col col-sm-4">
+                    <p style="font-weight: bold; font-size: 24px;">MyNETGEAR</p>
+                    
+                    <ul class="me-ul">
+                        <li class="form-control"><img src="../IMGS/support/key.png" alt="" class="me-li-img">Register Your Product</li>
+                        <li class="form-control"><img src="../IMGS/support/shield.png" alt="" class="me-li-img">Check Your Product Warranty</li>
+                        <li class="form-control"><img src="../IMGS/support/cargo-truck.png" alt="" class="me-li-img">Track Your Return</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        <footer class="footer d-flex justify-content-between">
+            
+            <div class="footer-left">
+                <a href="./main.html"><img src="../IMGS/support/download.png" alt="" class="footer-logo"></a>
+                <p style="font-size: 14px; font-weight: bold; padding-top: 15px;">©1996-2024 NETGEAR® Privacy PolicyTerms and Conditions</p>
+            </div>
+            <div class="footer-form">
+                <div class="search-form d-flex">
+                    <button class="btn btn-dark footer-icon"><img src="../IMGS/facebook_tcm148-94986.png" alt=""></button>
+                    <button class="btn btn-dark footer-icon"><img src="../IMGS/twitter_logo_home_page_smaller_tcm148-152849.png" alt=""></button>
+                    <button class="btn btn-dark footer-icon"><img src="../IMGS/youtube_tcm148-94989.png" alt=""></button>
+                    <button class="btn btn-dark footer-icon"><img src="../IMGS/instagram_tcm148-94988.png" alt=""></button>
+                </div>
+                <button class="btn btn-light" style="height: 50px; margin: 0 10px;" id="btn-feedback">
+                    Feedback
+                </button>
+                <select name="set-language" id="set-language" class="form-control inp-search sel">
+                    <option value="1">United States (English)</option>
+                    <option value="2">VietNames</option>
+                    <option value="3">USUK</option>
+                    <option value="4">China</option>
+                </select>
+            </div>
+        </footer>
+    </div>
+</body>
+<script>
+
+    var openz = document.getElementById('btn-in-out');
+    var modal = document.getElementById('inout');
+    
+    var isOpen = false; // Biến cờ để kiểm tra trạng thái hiển thị của modal
+    
+    openz.onclick = function(){
+      if (!isOpen) {
+        modal.style.display = "block";
+        isOpen = true;
+      } else {
+        modal.style.display = "none";
+        isOpen = false;
+      }
+    };
+    function chuyenTrang(){
+        window.location.href = "signin.html";
+      };
+      
+      function chuyenTrangcreate(){
+        window.location.href = "createAcc.html";
+      };
+      
+</script>
+</html>

@@ -1,0 +1,84 @@
+#main{
+    position: relative;
+    width: 100%;
+    background-color: black;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 1111;
+    top: 0;
+}
+
+.explore-title {
+    font-size: 26px;
+    padding: 30px;
+}
+
+.item-prod {
+    position: relative;
+    text-align: center;
+}
+
+.item-prod-sub {
+    margin-bottom: 17px;
+}
+
+.banner-work {
+    position: absolute;
+    transform: translateY(125%);
+}
+
+.rowfiding {
+    position: relative;
+}
+
+.box-business {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 20px;
+    width: 500px;
+}
+
+.f-bu {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.f-bu:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.f-bu-title {
+    position: absolute;
+    font-size: 34px;
+    color: white;
+    bottom: 30px;
+    left: 50px;
+    font-weight: bold;
+}
+
+.box-img {
+    position: relative;
+    padding: 20px 10px;
+}
+
+.img-box {
+    width: 100%;
+}
+
+.btn-av {
+    color: black;
+}
+
+.ct-ul-slidebar {
+    padding: 0;
+}
+
+.sliderbar-li {
+    padding:5px 10px;
+}

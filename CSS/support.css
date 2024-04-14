@@ -1,0 +1,266 @@
+.wrapper {
+    position: relative;
+    width: 1410px;
+    margin: auto;
+    background-color: #ececec;
+}
+
+.header {
+    position: relative;
+    padding: 30px 20px;
+    background-color: #ececec;
+}
+
+.header-li a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header-li {
+    padding: 0 10px;
+}
+
+.header-ul, .header-form {
+    display: flex;
+}
+
+.header-logo {
+    width: 80%;
+}
+
+.header-form {
+    width: 40%;
+}
+
+.inp-search {
+    width: 80%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 10px;
+}
+
+.btn-search {
+    border: none;
+    background: white;
+    width: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn-search:hover {
+    background-color: lightgrey;
+}
+
+.hei {
+    height: 40px;
+    width: 200px;
+}
+
+.btn-user {
+    margin: 0 10px;
+    /* color: white; */
+    font-size: 14px;
+}
+
+.nav-check_user {
+    position: absolute;
+    background-color: white;
+    right: 290px;
+    top: 80px;
+    text-align: center;
+    width: 250px;
+    z-index: 1111;
+    border-radius: 5px;
+    /* display: none; */
+}
+
+.nav-check_user {
+    display: none;
+    border: 1px solid gray;
+    padding: 20px;
+    width: 280px;
+    text-align: left;
+  }
+
+.user-createaccount {
+    background-color: black;
+    color: white;
+  }
+
+  .user-btn {
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .user-btn:hover {
+    cursor: pointer;
+  }
+
+  .header-ads {
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+  }
+
+  .header-ads a{
+    color: white;
+  }
+
+  .welcome-text {
+  
+  }
+
+  .left-box {
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+
+  .inp-help-inp {
+    border-radius: 20px;
+    padding-left: 15px;
+  }
+
+  .right-box {
+    padding: 30px 20px;
+  }
+
+  .container-fluid {
+    position: relative;
+    background-color: #ececec;
+  }
+
+  .select-title {
+    font-weight: 800;
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+
+  .new-row {
+    margin: auto;
+    padding: 0 30px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .grid-item {
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: bold;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+
+  .grid-item:hover {
+    border: 1px solid black;
+    cursor: pointer;
+  }
+
+  .grid-item1:hover {
+    background-color: lightgrey;
+  }
+
+.cant {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+  .div-bg {
+    padding: 10px 0;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  .btn-ask {
+    height: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-right: 40px;
+  }
+
+  .btn-contact-sup {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .btn-hr {
+    width: 30%;
+    margin-top: 0px;
+  }
+
+  
+  .btn-contact-sup:hover .btn-hr {
+    width: 100%;
+  }
+
+  .sp-ul li{
+    list-style-type: circle;
+  }
+
+  .re-ul, .me-ul {
+    padding: 0;
+  }
+
+  .re-ul li {
+    padding: 5px 0;
+  }
+
+    li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .me-ul li {
+    margin: 5px 0;
+  }
+
+  .me-li-img {
+    margin-right: 10px;
+  }
+
+  .footer {
+    width: 100%;
+    padding: 10px 30px;
+    border-top: 1px solid lightgray;
+  }
+
+  .footer-icon {
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+  }
+
+  .footer-form {
+    width: 600px;
+    display: flex;
+    padding-top: 15px;
+  }
+
+  .sel {
+    height: 50px;
+  }
+
+  #btn-feedback:hover {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+  }
